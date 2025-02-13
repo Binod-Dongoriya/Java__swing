@@ -5,7 +5,7 @@ class MyFrame {
     public static void main(String[] args) {
         JFrame frame = new JFrame(); // Creating a JFrame window
 
-        frame.setBounds(300, 100, 400, 500); // Set position and size
+        frame.setBounds(300, 100, 400, 200); // Set position and size
         frame.setTitle("My JFrame"); // Set title
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Close operation
@@ -17,6 +17,6 @@ class MyFrame {
         frame.setIconImage(icon.getImage());
 
         Container c= frame.getContentPane();
-        c.setBackground(Color.red);
+        c.setBackground(Color.Blue);
     }
 }
