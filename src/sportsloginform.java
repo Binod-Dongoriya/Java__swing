@@ -13,7 +13,7 @@ class SportsLoginForm {
 
         // Header
         JLabel header = new JLabel("Mechi Sports Clubs");
-        header.setBounds(250, 10, 200, 30);
+        header.setBounds(251, 10, 200, 30);
         Font font = new Font("Arial", Font.BOLD, 18); // Fixed font issue
         header.setFont(font);
         c.add(header);  // Adding to container
